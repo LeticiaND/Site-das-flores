@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header { 
+    right: 42%;
+    height: 200px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+}
+
+nav{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center  
+}
+
+li
+{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+section:nth-child(1) {
+    background-image:url("/img/img.jpg");
+    
+    /* Näo repetir a imagem */
+    background-repeat: no-repeat;
+
+    /* Para cobrir todo o espaco */
+    background-size: cover;
+    height: 90vh; 
+}
+.box-letsshop{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.back{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+    width: 400px;
+
+    text-align: center;
+  
+}
+.button{
+    background-color: #6b6b6b; /* Green */
+    border: none;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #b48c94;
+    transition: 0.2s ease-in-out;
+}
+span{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 5px;
+}
+
+#linha{
+    width: 80%;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #b48c94;
+
+}
+.text1{
+    margin-top: 28px;
+    text-align: center;
+    color: #d8b4b4;
+}
